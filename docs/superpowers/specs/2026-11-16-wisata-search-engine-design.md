@@ -2,6 +2,7 @@
 
 - **Project**: Vertical Search Engine for Indonesian Tourism Articles & Destination Reviews (`mesin-pencari-wisata-nusantara`)
 - **Course**: Praktikum Penelusuran Informasi (Information Retrieval Lab)
+- **Group**: Kelompok 10
 - **Institution**: Universitas Syiah Kuala (USK) - FMIPA
 - **Team Size**: 3 Members
 - **Date**: 2026-11-16
