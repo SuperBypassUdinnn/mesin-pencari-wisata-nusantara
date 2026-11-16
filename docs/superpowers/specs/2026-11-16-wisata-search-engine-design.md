@@ -4,7 +4,7 @@
 - **Course**: Praktikum Penelusuran Informasi (Information Retrieval Lab)
 - **Group**: Kelompok 10
 - **Institution**: Universitas Syiah Kuala (USK) - FMIPA
-- **Team Size**: 3 Members
+- **Team Size**: 4 Members
 - **Date**: 2026-11-16
 - **Status**: Draft for Review
 
@@ -250,13 +250,13 @@ Member 3 is the technical owner of data collection, text deduplication, ground-t
 
 ## 6. Team Collaboration, Git Strategy, & Living Artifacts
 
-To prevent merge conflicts and ensure clear accountability across the 3 members, the repository establishes strict workspace isolation.
+To prevent merge conflicts and ensure clear accountability across the 4 members, the repository establishes strict workspace isolation.
 
 ### 6.1 Member Responsibilities & Boundaries
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │ Member 1 (Frontend & UI Lead)                                          │
-│ - Directory: frontend/                                                 │
+│ - Directory: frontend/, docs/slides/                                   │
 │ - Deliverables: React Search UI, Split View, Recharts Dashboard,       │
 │   Inspector Modals, Presentation Slides design                         │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -266,16 +266,21 @@ To prevent merge conflicts and ensure clear accountability across the 3 members,
 │   setup, BM25 & LM Dirichlet models, Posting list inspector,           │
 │   Query Expansion, Rocchio feedback engine, FastAPI REST endpoints     │
 ├────────────────────────────────────────────────────────────────────────┤
-│ Member 3 (Data Engineering, Evaluator, & Report Lead)                  │
-│ - Directory: crawler/, data/, docs/report/, docs/evidence/             │
+│ Member 3 (Data Engineering & Scraping Lead)                            │
+│ - Directory: crawler/, data/raw/, data/processed/, docs/evidence/      │
 │ - Deliverables: Multi-source spiders, Duplicate checking pipeline,     │
-│   Test queries, Manual qrels ground truth, Academic report Bab I–V     │
+│   Raw and clean corpus generation, Deduplication verification report   │
+├────────────────────────────────────────────────────────────────────────┤
+│ Member 4 (IR Evaluation, QA, & Academic Report Lead)                   │
+│ - Directory: data/ground_truth/, docs/report/                          │
+│ - Deliverables: 10-15 test queries, Manual binary qrels ground truth,  │
+│   Automated evaluation runner, Academic report Bab I–V                 │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### 6.2 Living Documents & Governance
 1. **`docs/TEAM_WORKFLOW.md`**:
-   - Outlines branch conventions (`main`, `feature/core-ir-engine`, `feature/frontend-ui`, `feature/crawler-data`, `docs/academic-report`).
+   - Outlines branch conventions (`main`, `feature/core-ir-engine`, `feature/frontend-ui`, `feature/crawler-data`, `feature/evaluation-report`).
    - Defines directory access boundaries to prevent code conflicts.
    - Provides step-by-step local run and pull request guidelines.
 2. **`docs/PROGRESS.md`**:
