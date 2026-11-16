@@ -31,8 +31,8 @@ Naming rule: `feature/<area>` for feature work, `docs/<area>` for documentation-
 2. Implement changes strictly within your owned directory (or shared root files with team consent).
 3. Run the local quality gate before pushing: `make test` and `make verify` (or `python3 scripts/verify_pipeline.py`).
 4. Open a Pull Request against `main` from the feature branch.
-5. Require at least one approval from another team member before merge.
-6. Squash and merge with `--ff-only`; delete the feature branch after merge.
+5. All CI checks (`Backend Tests & Quality Gate`) must report green before merge; peer review is encouraged, and self-merge is permitted once CI passes.
+6. Squash and merge or rebase merge; delete the feature branch after merge.
 7. PR description must state: problem context, component changes, verification results (tests pass, verify gate passes), and any test artifacts.
 
 ## 4. Local Development Cycle
