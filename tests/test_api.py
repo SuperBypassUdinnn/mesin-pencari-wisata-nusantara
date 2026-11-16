@@ -21,6 +21,24 @@ def test_health_check():
     assert data["group"] == "Kelompok 10"
 
 
+def test_cors_allows_frontend_origin():
+    response = client.get(
+        "/api/health",
+        headers={"Origin": "http://localhost:3000"},
+    )
+    assert response.status_code == 200
+    assert response.headers.get("access-control-allow-origin") == "http://localhost:3000"
+
+
+def test_cors_allows_docker_frontend_origin():
+    response = client.get(
+        "/api/health",
+        headers={"Origin": "http://frontend:3000"},
+    )
+    assert response.status_code == 200
+    assert response.headers.get("access-control-allow-origin") == "http://frontend:3000"
+
+
 @patch("backend.app.api.routes.get_es_client")
 def test_search_endpoint(mock_get_es):
     mock_es = MagicMock()
