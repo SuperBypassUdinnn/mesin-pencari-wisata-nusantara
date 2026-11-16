@@ -66,7 +66,7 @@ Living checklist tracking all 10 UAS evaluation components across 4 team members
 
 ## 9. Docker Portability — Member 2 Lead
 - [x] Create `docker-compose.yml` (Elasticsearch service configured)
-- [ ] Create `backend/Dockerfile`
+- [x] Create `backend/Dockerfile`
 - [ ] Create `frontend/Dockerfile`
 - [ ] Verify `docker compose up --build` single-command startup
 
