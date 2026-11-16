@@ -1,0 +1,53 @@
+# Python
+.venv/
+venv/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+*.egg
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/dist/
+frontend/.vite/
+
+# Operating system
+.DS_Store
+Thumbs.db
+.localized
+
+# Elasticsearch data volume (persisted outside repo)
+.es_data/
+es_data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
