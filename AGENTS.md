@@ -14,11 +14,10 @@ At the start of every session, before reading or writing code:
 
 | Directory | Owner | Rule |
 | :--- | :--- | :--- |
-| `frontend/` | Member 1 | Other members must not touch without review and approval |
-| `backend/` | Member 2 | Other members must not touch without review and approval |
-| `crawler/` | Member 3 | Other members must not touch without review and approval |
-| `data/` | Member 3 | Other members must not touch without review and approval |
-| `docs/report/`, `docs/evidence/` | Member 3 | Other members must not touch without review and approval |
+| `frontend/`, `docs/slides/` | Member 1 | Other members must not touch without review and approval |
+| `backend/`, `docker-compose.yml` | Member 2 | Other members must not touch without review and approval |
+| `crawler/`, `data/raw/`, `data/processed/`, `docs/evidence/` | Member 3 | Other members must not touch without review and approval |
+| `data/ground_truth/`, `docs/report/` | Member 4 | Other members must not touch without review and approval |
 | Root config (`.gitignore`, `requirements.txt`, `Makefile`, `AGENTS.md`, `scripts/`) | Shared | Team consensus required before changes |
 
 ## 3. Clean Text Policy

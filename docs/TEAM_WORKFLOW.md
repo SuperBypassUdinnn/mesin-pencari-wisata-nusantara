@@ -4,9 +4,10 @@
 
 | Member | Role | Directory Ownership | Primary Deliverables |
 | :--- | :--- | :--- | :--- |
-| Member 1 | Frontend & UI Lead | `frontend/` | React search UI, split-view comparison, relevance feedback controls, Recharts dashboard, inspector modals, presentation slide design |
+| Member 1 | Frontend & UI Lead | `frontend/`, `docs/slides/` | React search UI, split-view comparison, relevance feedback controls, Recharts dashboard, inspector modals, presentation slide design |
 | Member 2 | Core IR Engine & Backend Lead | `backend/`, `docker-compose.yml` | Indonesian preprocessing pipeline, dual-index Elasticsearch setup, BM25 and LM Dirichlet retrieval models, posting-list inspector, query expansion, Rocchio feedback engine, FastAPI REST endpoints |
-| Member 3 | Data Engineering, Evaluation & Report Lead | `crawler/`, `data/`, `docs/report/`, `docs/evidence/` | Multi-source crawler spiders, deduplication pipeline, ground-truth queries and qrels, automated evaluator, academic report Bab I–V, evidence documentation |
+| Member 3 | Data Engineering & Scraping Lead | `crawler/`, `data/raw/`, `data/processed/`, `docs/evidence/` | Multi-source crawler spiders, deduplication pipeline, raw and clean corpus files, deduplication verification report |
+| Member 4 | IR Evaluation, QA, & Academic Report Lead | `data/ground_truth/`, `docs/report/` | Ground-truth test queries and qrels, automated evaluation metrics (P@10, Recall, F1, MAP), academic report Bab I–V |
 
 No member shall modify files inside another member's owned directory without prior review and explicit approval. Root configuration files (`.gitignore`, `requirements.txt`, `Makefile`, `AGENTS.md`, `scripts/`) are shared and require team consensus before changes.
 
@@ -18,9 +19,9 @@ All work is branched from `main`. Protected branches: `main`.
 | :--- | :--- | :--- |
 | `main` | Production-ready mainline; receives fast-forward merges only | All (merge gate) |
 | `feature/core-ir-engine` | Preprocessing, indexing, retrieval, query expansion, Rocchio, API | Member 2 |
-| `feature/frontend-ui` | React UI, split view, feedback controls, dashboard | Member 1 |
-| `feature/crawler-data` | Crawler spiders, deduplication, ground truth, evaluation data | Member 3 |
-| `docs/academic-report` | Academic report Bab I–V and supporting evidence | Member 3 |
+| `feature/frontend-ui` | React UI, split view, feedback controls, dashboard, slides | Member 1 |
+| `feature/crawler-data` | Crawler spiders, deduplication, raw & clean corpus | Member 3 |
+| `feature/evaluation-report` | Ground truth, evaluation benchmarks, academic report Bab I–V | Member 4 |
 
 Naming rule: `feature/<area>` for feature work, `docs/<area>` for documentation-only work. Branch from `main`, rebase onto `main` before merging, and merge with `--ff-only`.
 

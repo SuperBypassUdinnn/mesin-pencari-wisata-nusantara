@@ -537,7 +537,7 @@ git commit -m "feat(engine): implement synonym query expansion and Rocchio relev
 
 ---
 
-### Task 8: Ground Truth Dataset & Automated Evaluation Engine (Member 3 Lead)
+### Task 8: Ground Truth Dataset & Automated Evaluation Engine (Member 4 Lead)
 
 **Files:**
 - Create: `data/ground_truth/queries.json`
