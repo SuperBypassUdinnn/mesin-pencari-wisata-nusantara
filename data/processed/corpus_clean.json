@@ -1,0 +1,182 @@
+[
+  {
+    "doc_id": "wisata_001",
+    "title": "Pesona Keindahan Curug Leuwi Hejo Bogor",
+    "content": "Curug Leuwi Hejo merupakan salah satu air terjun alami paling populer di kawasan Sentul, Bogor, Jawa Barat. Dikelilingi oleh tebing batu kapur kehijauan dan air sungai yang jernih, Leuwi Hejo sering dijuluki sebagai Green Canyon Bogor. Wisatawan dapat menikmati trekking menyusuri perbukitan sebelum berenang di kolam alami yang sejuk dan menyegarkan.",
+    "url": "https://www.nativeindonesia.com/curug-leuwi-hejo/",
+    "source": "nativeindonesia",
+    "location": "Bogor, Jawa Barat",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_002",
+    "title": "Eksotisme Pasir Putih Pantai Kuta Bali",
+    "content": "Pantai Kuta adalah destinasi wisata pantai ikonik di pulau Bali dengan garis pantai pasir putih yang membentang luas. Pantai ini sangat terkenal dengan pemandangan matahari terbenam atau sunset yang spektakuler. Selain bersantai di tepi pesisir, ombak pantai Kuta menjadi favorit bagi peselancar pemula hingga profesional dari berbagai belahan dunia.",
+    "url": "https://indonesia.travel/id/id/destinasi/bali-nusa-tenggara/pantai-kuta",
+    "source": "indonesiatravel",
+    "location": "Badung, Bali",
+    "category": "Wisata Bahari"
+  },
+  {
+    "doc_id": "wisata_003",
+    "title": "Kemegahan Candi Borobudur Warisan Mataram Kuno di Magelang",
+    "content": "Candi Borobudur adalah candi Buddha terbesar di dunia yang dibangun pada masa kerajaan Mataram Kuno oleh Dinasti Syailendra. Terletak di Magelang, Jawa Tengah, situs bersejarah ini memiliki ribuan panel relief yang menceritakan ajaran Buddha serta stupa megah berundak sembilan. Wisatawan sering berkunjung saat fajar untuk menyaksikan matahari terbit yang magis di atas perbukitan Menoreh.",
+    "url": "https://indonesia.travel/id/id/destinasi/jawa/candi-borobudur",
+    "source": "indonesiatravel",
+    "location": "Magelang, Jawa Tengah",
+    "category": "Wisata Budaya"
+  },
+  {
+    "doc_id": "wisata_004",
+    "title": "Surga Bawah Laut dan Snorkeling di Kepulauan Raja Ampat",
+    "content": "Kepulauan Raja Ampat di Papua Barat diakui dunia sebagai episentrum keanekaragaman hayati laut global. Gugusan pulau karang karst yang menakjubkan menyembunyikan titik menyelam dan snorkeling terbaik di bumi. Terumbu karang yang masih perawan menjadi rumah bagi ribuan spesies ikan tropis, pari manta, dan biota laut langka.",
+    "url": "https://indonesia.travel/id/id/destinasi/maluku-papua/raja-ampat",
+    "source": "indonesiatravel",
+    "location": "Raja Ampat, Papua Barat",
+    "category": "Wisata Bahari"
+  },
+  {
+    "doc_id": "wisata_005",
+    "title": "Pesona Api Biru dan Danau Kawah Ijen Banyuwangi",
+    "content": "Gunung Ijen yang terletak di perbatasan Banyuwangi dan Bondowoso, Jawa Timur, menawarkan fenomena langka blue fire atau api biru di kawah belerang. Wisata pendakian gunung ini biasanya dimulai tengah malam agar wisatawan dapat menyaksikan api biru yang menyala megah di dasar kawah sebelum matahari terbit menerangi danau kawah asam berwarna toska.",
+    "url": "https://www.nativeindonesia.com/kawah-ijen-banyuwangi/",
+    "source": "nativeindonesia",
+    "location": "Banyuwangi, Jawa Timur",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_006",
+    "title": "Keajaiban Alam Danau Toba dan Pulau Samosir Sumatera Utara",
+    "content": "Danau Toba merupakan danau vulkanik terbesar di dunia yang terbentuk dari letusan dahsyat gunung api purba ribuan tahun lalu. Di tengah danau megah ini terdapat Pulau Samosir yang kental dengan warisan budaya suku Batak Toba. Pemandangan perbukitan hijau, udara pegunungan yang sejuk, serta pesona rumah adat Batak menjadikan Danau Toba destinasi super prioritas Indonesia.",
+    "url": "https://indonesia.travel/id/id/destinasi/sumatera/danau-toba",
+    "source": "indonesiatravel",
+    "location": "Sumatera Utara",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_007",
+    "title": "Harmoni Tradisi di Desa Adat Penglipuran Bangli Bali",
+    "content": "Desa Wisata Penglipuran dinobatkan sebagai salah satu desa terbersih di dunia. Berada di dataran tinggi Bangli, Bali, desa ini mempertahankan tata ruang tradisional arsitektur Bali yang asri dan bebas dari polusi kendaraan bermotor. Hutan bambu yang rimbun di belakang desa menambah kesejukan suasana bagi wisatawan yang ingin belajar kearifan lokal.",
+    "url": "https://wisato.id/desa-wisata-penglipuran-bali/",
+    "source": "wisato",
+    "location": "Bangli, Bali",
+    "category": "Wisata Budaya"
+  },
+  {
+    "doc_id": "wisata_008",
+    "title": "Eksplorasi Satwa Purba di Taman Nasional Komodo NTT",
+    "content": "Taman Nasional Komodo di Nusa Tenggara Timur adalah habitat alami satu-satunya bagi kadal raksasa purba komodo. Kawasan konservasi ini terdiri dari Pulau Komodo, Pulau Rinca, dan Pulau Padar yang memiliki lanskap perbukitan savana ikonik. Selain menyaksikan komodo di alam bebas, perairan sekitarnya menawarkan spot diving dan pantai pasir merah muda (Pink Beach) yang eksotis.",
+    "url": "https://indonesia.travel/id/id/destinasi/bali-nusa-tenggara/taman-nasional-komodo",
+    "source": "indonesiatravel",
+    "location": "Manggarai Barat, NTT",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_009",
+    "title": "Kisah Ramayana di Relief Candi Prambanan Yogyakarta",
+    "content": "Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia yang menjulang megah setinggi 47 meter. Terletak di perbatasan Sleman dan Klaten, candi ini didedikasikan untuk Trimurti (Brahma, Wisnu, dan Siwa). Dinding candi dihiasi relief epos Ramayana dan Krishnayana yang memukau. Di malam hari, wisatawan dapat menyaksikan sendratari Ramayana berlatar candi yang bermandikan cahaya lampu.",
+    "url": "https://www.nativeindonesia.com/candi-prambanan-jogja/",
+    "source": "nativeindonesia",
+    "location": "Sleman, D.I. Yogyakarta",
+    "category": "Wisata Budaya"
+  },
+  {
+    "doc_id": "wisata_010",
+    "title": "Petualangan Menyusuri Lautan Pasir dan Kawah Gunung Bromo",
+    "content": "Gunung Bromo di Jawa Timur menawarkan panorama dramatis berupa kaldera lautan pasir luas yang dikelilingi oleh pegunungan Tengger. Dari puncak Penanjakan, wisatawan dapat menyaksikan pemandangan matahari terbit yang berpadu dengan kabut pagi. Perjalanan dilanjutkan dengan mengendarai jeep menyusuri pasir berbisik dan mendaki tangga menuju bibir kawah aktif Bromo.",
+    "url": "https://indonesia.travel/id/id/destinasi/jawa/gunung-bromo",
+    "source": "indonesiatravel",
+    "location": "Probolinggo, Jawa Timur",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_011",
+    "title": "Keindahan Batu Granit Raksasa di Pantai Tanjung Tinggi Belitung",
+    "content": "Pantai Tanjung Tinggi di Belitung terkenal dengan formasi batu granit raksasa berumur ratusan juta tahun yang tersebar di sepanjang pesisir pantai berpasir putih halus. Air lautnya yang tenang dan jernih berwarna biru kehijauan menjadikannya tempat sempurna untuk berenang, berkayak, dan berfoto. Pantai ini semakin terkenal setelah menjadi lokasi syuting film Laskar Pelangi.",
+    "url": "https://wisato.id/pantai-tanjung-tinggi-belitung/",
+    "source": "wisato",
+    "location": "Belitung, Kepulauan Bangka Belitung",
+    "category": "Wisata Bahari"
+  },
+  {
+    "doc_id": "wisata_012",
+    "title": "Sensasi Sejuk Tujuh Tingkat Air Terjun Curug Cilember Bogor",
+    "content": "Curug Cilember di kawasan Cisarua Puncak, Bogor, menyajikan keunikan berupa tujuh air terjun bertingkat di tengah hutan pinus yang asri. Udara pegunungan yang sangat dingin dipadukan dengan gemuruh air terjun menciptakan suasana relaksasi alami. Di kawasan wisata ini juga terdapat taman konservasi kupu-kupu dan area kamping keluarga.",
+    "url": "https://www.nativeindonesia.com/curug-cilember-puncak/",
+    "source": "nativeindonesia",
+    "location": "Bogor, Jawa Barat",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_013",
+    "title": "Pesona Kawah Ratu dan Gunung Tangkuban Parahu Bandung",
+    "content": "Taman Wisata Alam Gunung Tangkuban Parahu di Subang dan Lembang, Bandung Barat, merupakan salah satu gunung api aktif yang dapat diakses langsung menggunakan kendaraan hingga ke bibir kawah. Kawah Ratu yang luas menyemburkan asap belerang putih dengan latar tebing terjal yang menakjubkan. Wisatawan juga dapat menikmati pemandian air panas alami di kawah Domas di dekatnya.",
+    "url": "https://www.nativeindonesia.com/tangkuban-perahu-bandung/",
+    "source": "nativeindonesia",
+    "location": "Bandung Barat, Jawa Barat",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_014",
+    "title": "Romantisme Senja dan Mistisisme Pantai Parangtritis Jogja",
+    "content": "Pantai Parangtritis di pesisir selatan Bantul, Yogyakarta, dikenal dengan deburan ombak Samudera Hindia yang dahsyat dan gumuk pasir pantai yang luas. Pantai ini menyajikan pemandangan matahari terbenam yang memikat dihiasi siluet kereta kuda bendi dan bukit karang Parangndog. Pantai Parangtritis juga sarat dengan kisah legenda Ratu Laut Selatan Nyai Roro Kidul.",
+    "url": "https://indonesia.travel/id/id/destinasi/jawa/pantai-parangtritis",
+    "source": "indonesiatravel",
+    "location": "Bantul, D.I. Yogyakarta",
+    "category": "Wisata Bahari"
+  },
+  {
+    "doc_id": "wisata_015",
+    "title": "Kearifan Arsitektur Rumah Tradisional di Desa Adat Sade Lombok",
+    "content": "Desa Sade di Lombok Tengah, Nusa Tenggara Barat, merupakan perkampungan tradisional suku Sasak yang mempertahankan gaya hidup leluhur selama berabad-abad. Rumah adat bale tani dibangun menggunakan atap ilalang, tiang bambu, dan lantai tanah liat yang dirawat secara tradisional. Kaum perempuan di desa ini sangat mahir menenun kain songket khas Sasak dengan motif geometris yang menawan.",
+    "url": "https://indonesia.travel/id/id/destinasi/bali-nusa-tenggara/desa-sade-lombok",
+    "source": "indonesiatravel",
+    "location": "Lombok Tengah, NTB",
+    "category": "Wisata Budaya"
+  },
+  {
+    "doc_id": "wisata_016",
+    "title": "Misteri Danau Tiga Warna di Kawah Gunung Kelimutu Flores",
+    "content": "Gunung Kelimutu di Pulau Flores, Nusa Tenggara Timur, menyimpan keajaiban alam berupa tiga danau kawah yang memiliki warna berbeda dan dapat berubah secara periodik akibat aktivitas vulkanik. Danau berwarna biru toska, merah kecokelatan, dan hijau pekat ini dipercaya masyarakat setempat sebagai tempat peristirahatan arwah leluhur.",
+    "url": "https://wisato.id/danau-tiga-warna-kelimutu-flores/",
+    "source": "wisato",
+    "location": "Ende, NTT",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_017",
+    "title": "Situs Sejarah Candi Gedong Songo di Lereng Gunung Ungaran",
+    "content": "Candi Gedong Songo adalah kompleks sembilan bangunan candi Hindu peninggalan Mataram Kuno yang tersebar di lereng Gunung Ungaran, Semarang, Jawa Tengah. Berada di ketinggian 1.200 meter di atas permukaan laut, kawasan candi ini diselimuti kabut sejuk dan pemandangan lembah hijau. Wisatawan dapat menunggang kuda menyusuri jalur pendakian antar candi sembari menikmati sumber mata air belerang hangat.",
+    "url": "https://www.nativeindonesia.com/candi-gedong-songo-semarang/",
+    "source": "nativeindonesia",
+    "location": "Semarang, Jawa Tengah",
+    "category": "Wisata Budaya"
+  },
+  {
+    "doc_id": "wisata_018",
+    "title": "Sensasi Cave Tubing Menyusuri Sungai Bawah Tanah Goa Pindul",
+    "content": "Goa Pindul di Gunungkidul, Yogyakarta, menawarkan pengalaman cave tubing yang mengasyikkan dengan menyusuri sungai bawah tanah menggunakan ban pelampung. Di dalam goa, wisatawan dapat menyaksikan stalaktit raksasa dan stalagmit yang berkilauan diterpa cahaya matahari yang masuk melalui celah atap goa, menciptakan efek sorot cahaya surga (light of heaven).",
+    "url": "https://wisato.id/goa-pindul-gunungkidul-jogja/",
+    "source": "wisato",
+    "location": "Gunungkidul, D.I. Yogyakarta",
+    "category": "Wisata Alam"
+  },
+  {
+    "doc_id": "wisata_019",
+    "title": "Berenang Bersama Ubur-ubur Tanpa Sengat di Pulau Kakaban Derawan",
+    "content": "Kepulauan Derawan di Kalimantan Timur menyimpan keajaiban unik di Pulau Kakaban, yaitu sebuah danau prasejarah yang dihuni jutaan ubur-ubur tanpa sengat. Wisatawan dapat melakukan snorkeling dengan aman di tengah ribuan ubur-ubur transparan. Selain Kakaban, pulau Maratua dan Sangalaki di kawasan Derawan juga menjadi surganya habitat penyu hijau dan pari manta raksasa.",
+    "url": "https://indonesia.travel/id/id/destinasi/kalimantan/kepulauan-derawan",
+    "source": "indonesiatravel",
+    "location": "Berau, Kalimantan Timur",
+    "category": "Wisata Bahari"
+  },
+  {
+    "doc_id": "wisata_020",
+    "title": "Kesejukan Dataran Tinggi Dieng dan Kompleks Candi Arjuna",
+    "content": "Dataran Tinggi Dieng di Jawa Tengah dijuluki sebagai negeri di atas awan karena posisinya di ketinggian lebih dari 2.000 mdpl. Kawasan ini memadukan keindahan alam Kawah Sikidang dan Telaga Warna dengan situs bersejarah Kompleks Candi Arjuna. Dieng juga terkenal dengan fenomena embun upas (embun es) saat musim kemarau dan tradisi pemotongan rambut gimbal anak Dieng.",
+    "url": "https://www.nativeindonesia.com/dieng-plateau-wonosobo/",
+    "source": "nativeindonesia",
+    "location": "Wonosobo, Jawa Tengah",
+    "category": "Wisata Alam"
+  }
+]
