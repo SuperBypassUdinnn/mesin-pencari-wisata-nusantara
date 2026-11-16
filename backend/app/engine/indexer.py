@@ -28,6 +28,16 @@ INDEX_BASELINE = "wisata_baseline"
 
 ALL_INDEXES = [INDEX_CUSTOM, INDEX_BASELINE]
 
+
+def _resolve_termvectors_client(es_client):
+    """Resolve the termvectors method across elasticsearch client versions.
+
+    elasticsearch 8.x exposes both `termvectors` and `term_vectors`, while older
+    7.x clients expose `termvectors`. Return whichever attribute exists so the
+    posting list inspector remains resilient across client variations.
+    """
+    return getattr(es_client, "termvectors", None) or getattr(es_client, "term_vectors", None)
+
 # ---------------------------------------------------------------------------
 # Schema mappings
 # ---------------------------------------------------------------------------
@@ -245,11 +255,16 @@ def get_posting_list(es_client, index_name: str, term: str) -> dict:
     hits = search_resp.get("hits", {}).get("hits", [])
     doc_ids = [hit["_id"] for hit in hits]
 
+    termvectors_fn = _resolve_termvectors_client(es_client)
+    if termvectors_fn is None:
+        raise AttributeError(
+            "elasticsearch client exposes neither 'termvectors' nor 'term_vectors'"
+        )
     df = len(doc_ids)
     total_tf = 0
     postings: List[dict] = []
     for doc_id in doc_ids:
-        tv_resp = es_client.termvectors(
+        tv_resp = termvectors_fn(
             index=index_name,
             id=doc_id,
             fields=[field],
