@@ -9,11 +9,11 @@ Living checklist tracking all 10 UAS evaluation components across 4 team members
 `- [ ]` = not started, `- [x]` = complete.
 
 ## 1. Korpus & Crawling (10%) — Member 3 Lead
-- [ ] Crawl 600–800 Indonesian tourism articles from NativeIndonesia.com, Indonesia.travel, Wisato.id
-- [ ] Deduplicate corpus (>95% similarity threshold), retain >= 500 unique documents
-- [ ] Produce `data/raw/corpus_raw.json` and `data/raw/corpus_raw.csv`
-- [ ] Produce `data/processed/corpus_clean.json` and `data/processed/corpus_clean.csv`
-- [ ] Publish `docs/evidence/duplicate_report.md`
+- [x] Crawl 600–800 Indonesian tourism articles from NativeIndonesia.com, Indonesia.travel, Wisato.id
+- [x] Deduplicate corpus (>95% similarity threshold), retain >= 500 unique documents
+- [x] Produce `data/raw/corpus_raw.json` and `data/raw/corpus_raw.csv`
+- [x] Produce `data/processed/corpus_clean.json` and `data/processed/corpus_clean.csv`
+- [x] Publish `docs/evidence/duplicate_report.md`
 
 ## 2. Custom Preprocessing (15%) — Member 2 Lead
 - [x] Implement HTML, emoji, ticket price, and operational hours cleaning
